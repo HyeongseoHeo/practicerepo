@@ -18,5 +18,38 @@
 # 3. GitHub
 ## 3.1. GitHub 활용법
 ### 3.1.1. 로컬 레포지토리에서 작업
+```
+git clone <remote-repo>
+```
+```
+git add .|<files>
+```
+```
+git commit -m "<msg>"
+```
+```
+git push <remote> <branch>
+```
+### 3.2.2. 원격 레포지토리의 변경사항 가져오기
+```
+git fetch <remote>
+```
+```
+git merge <remote> <branch>
+```
+### 3.2.3. 브랜치 및 로그 확인
+```
+opensw@tux:~/gitlab/openswproject$ git branch
+develop
+* main
+opensw@tux:~/gitlab/openswproject$ git log --oneline --dec orate --graph --all
+* c3dc21d (HEAD -> release) Resolve conflict
+|\
+| * 4cfe584 (develop) New line about log
+| * 332c95b New feature's code
+* | b88648d Create introduction file about new version
+|/
+* b2f6043 (main) Need to a new function
+```
 ### 3.1.2. 원격 레포지토리의 변경사항 가져오기 
 ### 3.1.3. 브랜치 및 로그 확인
