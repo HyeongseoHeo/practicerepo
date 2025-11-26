@@ -3,6 +3,7 @@
 - 오픈소스 형태의 운영체제 : 리눅스(Ubuntu, RHEL, CentOS, Fedora)
 - 개발 시 활용되는 관리 시스템 : Git/GitHub, Gitlab
 # 2. 리눅스
+> 아래 내용은 Ubuntu 기준으로 작성되었음
 ## 2.1. 명령어 종류
 1. 파일 관리 : `ls`, `cd`, `mkdir`, `rmdir`, `touch`, `vi`, `cat`, `mv`, `rm`, `find`
 2. 쉘 : `chsh`, `echo`, `export`, `alias`, `unalias`, `history`
@@ -18,6 +19,7 @@
 # 3. GitHub
 ## 3.1. GitHub 활용법
 ### 3.1.1. 로컬 레포지토리에서 작업
+> 원격 레포지토리가 GitHub에 생성되어 있음을 가정
 ```
 git clone <remote-repo>
 ```
