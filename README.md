@@ -51,5 +51,14 @@ opensw@tux:~/gitlab/openswproject$ git log --oneline --dec orate --graph --all
 |/
 * b2f6043 (main) Need to a new function
 ```
-### 3.1.2. 원격 레포지토리의 변경사항 가져오기 
-### 3.1.3. 브랜치 및 로그 확인
+# 4. 패키지 관리 
+
+| 기능 | apt 형식 | apt-get / apt-cache 형식 |
+|:---:|:---:|:---:|
+| 패키지 검색 | apt search | apt-cache search |
+| 패키지 정보 검색 | apt show | apt-cache show |
+| 패키지 정보 업데이트 | apt update | apt-get update |
+| 패키지 업그레이드 | apt upgrade | apt-get upgrade |
+| 패키지 설치 | apt install | apt-get install |
+| 패키지 삭제 | apt autoremove | apt-get autoremove |
+| 패키지 파일 다운로드 | apt download | apt-get download |
