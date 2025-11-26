@@ -1,9 +1,10 @@
 # 1. 오픈소스 소프트웨어
+**오픈소스 소프트웨어** : 소스코드가 공개되어 <ins/>누구나 자유롭게 사용,복제, 수정, 배포할 수 있는 소프트웨어</ins>
 - 오픈소스 라이선스 종류 : GPL, Apache License, MIT, BSD, CC, MPL, AGPL
 - 오픈소스 형태의 운영체제 : 리눅스(Ubuntu, RHEL, CentOS, Fedora)
 - 개발 시 활용되는 관리 시스템 : Git/GitHub, Gitlab
 # 2. 리눅스
-> 아래 내용은 Ubuntu 기준으로 작성되었음
+> _아래 내용은 Ubuntu 기준으로 작성되었음_
 ## 2.1. 명령어 종류
 1. 파일 관리 : `ls`, `cd`, `mkdir`, `rmdir`, `touch`, `vi`, `cat`, `mv`, `rm`, `find`
 2. 쉘 : `chsh`, `echo`, `export`, `alias`, `unalias`, `history`
@@ -17,9 +18,10 @@
 8. 파일 시스템 관리 : `fdisk`, `mkfs`, `dd`, `df`, `du`, `mount`, `umount`
 9. 네트워크 관리 : `nmcli`, `ip`, `route`, `ping`, `traceroute`, `netstat`, `nmap`, `ufw`
 # 3. GitHub
+**GitHub** : 버전 관리 도구인 Git으로 관리되는 소스코드 형상관리 정보를 보여주는 웹 기반 서비스
 ## 3.1. GitHub 활용법
 ### 3.1.1. 로컬 레포지토리에서 작업
-> 원격 레포지토리가 GitHub에 생성되어 있음을 가정
+> 원격 레포지토리가 **GitHub에 생성되어 있음**을 가정
 ```
 git clone <remote-repo>
 ```
